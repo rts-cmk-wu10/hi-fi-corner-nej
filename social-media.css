@@ -1,0 +1,15 @@
+.hifi__social-media{
+        width: 100%;
+        height: 300px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+}
+ .hifi__social-media__imgcontainer
+ {
+    width: 100%;
+    border: solid 2px black;
+ }
+
+ .hifi__social-media__text{
+    
+ }
