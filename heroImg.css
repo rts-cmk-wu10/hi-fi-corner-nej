@@ -1,13 +1,15 @@
 .hifi__heroImg__headingcontainer{
     font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    border: solid 2px #fff;
+    border: solid 2px #FFF;
     color: #FFF;
 
     width: 150px;
     height: 150px;
-
     line-height: 1;
+
+    position: absolute;
+    top: 25%;
+    left: 45%;
 }
 
 .hifi__heroImg__heading{
@@ -19,8 +21,11 @@
 }
 
 .hifi__heroImg__text{
-    font-size: 0.8em;
+    width: 150px;
+    font-size: 95%;
     text-transform: uppercase;
+
+    font-weight: bold;
 
     margin-top: 10%;
 }
@@ -29,3 +34,11 @@
 .first-line, .second-line {
     display: block;
 }
+
+.hifi__heroImgcontainer
+{
+
+    opacity: 80%;
+    margin-top: -10%;
+}
+
