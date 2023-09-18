@@ -11,5 +11,7 @@
  }
 
  .hifi__social-media__text{
-    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
  }
