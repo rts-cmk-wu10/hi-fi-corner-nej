@@ -49,7 +49,7 @@
       "image": "Produktbilleder/effektforstaerkere/manley_mahi.jpg",
       "categories": {
         "category": "amplifier",
-        "subcategory": "power amplifier"
+        "subcategory": "power_amplifier"
       },
     },
     {
@@ -62,7 +62,5 @@
         "subcategory": ""
       },
     }
-
-
   ]
 }
