@@ -4,21 +4,53 @@
     height: 300px;
     margin: 0 auto;
 
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.4em;
+    color: #FFF;
+}
+
+.hifi__slogan__background{
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
 }
 
 .hifi__slogan__heading {
-    color: #FFF;
+    grid-column: 1;
+    grid-row: 1;
 
 }
+
+.hifi__slogan__imgcontainer{
+    
+    grid-column: 1;
+    grid-row: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .hifi__slogan__img {
     width: 1540px;
