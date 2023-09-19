@@ -17,3 +17,7 @@
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
  }
+
+ .hifi__social-media__img-twt{
+   background-image: url(/images/plateplayer.jpg);
+ }
