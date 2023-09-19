@@ -1,5 +1,5 @@
 .hifi__gallery-slider{
-    background-color: #690;
+    background-color: #FFF;
     width: 100%;
     height: 300px;
 
@@ -13,6 +13,7 @@
 }
 
 .hifi__gallery-slider__imgcontainer{
+    height: 10%;
     width: 30%;
 }
 
@@ -21,5 +22,5 @@
     left: 15%;
     margin-bottom: 10%;
 
-    color: #0FF000;
+    color: #ce8d00
 }
