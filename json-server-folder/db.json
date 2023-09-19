@@ -1,23 +1,8 @@
 {
-  "shopCategories": [
+  "products": [
     {
-      "Amplifiers": [
-        "Integrated Amplifiers",
-        "Power Amplifiers",
-        "Preamplifiers"
-      ],
-      "Speakers": [],
-      "Turntables": [],
-      "CD players": [],
-      "Steamers": [],
-      "Cables": [],
-      "Furniture": [],
-      "Headphones": [],
-      "Home Cinema": [],
-      "Home Ceiling Speakers": [],
-      "TV": [],
-      "Vinyl": [],
-      "Outlet - Save ££££": []
+      "id": 0,
+      "category": "cd afspiller"
     }
   ]
 }
