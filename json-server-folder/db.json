@@ -1,23 +1,68 @@
 {
-  "shopCategories": [
+  "products": [
+
     {
-      "Amplifiers": [
-        "Integrated Amplifiers",
-        "Power Amplifiers",
-        "Preamplifiers"
-      ],
-      "Speakers": [],
-      "Turntables": [],
-      "CD players": [],
-      "Steamers": [],
-      "Cables": [],
-      "Furniture": [],
-      "Headphones": [],
-      "Home Cinema": [],
-      "Home Ceiling Speakers": [],
-      "TV": [],
-      "Vinyl": [],
-      "Outlet - Save ££££": []
+      "id": 0,
+      "title": "Rotel A10 Stereo Amplifier",
+      "price": 389,
+      "image": "Produktbilleder/forforstaerkere/parasound_halop3.jpg",
+      "categories": {
+        "category": "amplifier",
+        "subcategory": "preamplifier"
+      }
+    },
+    {
+      "id": 1,
+      "title": "Quad 2 classic power amplifier",
+      "price": 999,
+      "image": "Produktbilleder/forforstaerkere/parasound_classic7100.jpg",
+      "categories": {
+        "category": "amplifier",
+        "subcategory": "power_amplifier"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Quad Atera Solus",
+      "price": 1200,
+      "image": "Produktbilleder/dvdafspillere/creek_classic.jpg",
+      "categories": {
+        "category": "cd_player",
+        "subcategory": ""
+      },
+    },
+
+    {
+      "id": 3,
+      "title": "Turntable",
+      "price": 20,
+      "image": "Produktbilleder/pladespillere/Pro_ject_Debut_3_bl.jpg",
+      "categories": {
+        "category": "turntable",
+        "subcategory": ""
+      },
+    },
+    {
+      "id": 4,
+      "title": "Effektforstærker 2000",
+      "price": 2000,
+      "image": "Produktbilleder/effektforstaerkere/manley_mahi.jpg",
+      "categories": {
+        "category": "amplifier",
+        "subcategory": "power amplifier"
+      },
+    },
+    {
+      "id": 5,
+      "title": "Mega Sindsyg Pladeafspiller",
+      "price": 2500,
+      "image": "Produktbilleder/pladespillere/Pro_ject_Debut_3_bl.jpg",
+      "categories": {
+        "category": "record_player",
+        "subcategory": ""
+      },
     }
+
+
   ]
 }
