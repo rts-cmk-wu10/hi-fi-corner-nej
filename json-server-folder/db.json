@@ -1,6 +1,5 @@
 {
   "products": [
-
     {
       "id": 0,
       "title": "Rotel A10 Stereo Amplifier",
@@ -21,6 +20,7 @@
         "subcategory": "power_amplifier"
       }
     },
+
     {
       "id": 2,
       "title": "Quad Atera Solus",
@@ -29,7 +29,7 @@
       "categories": {
         "category": "cd_player",
         "subcategory": ""
-      },
+      }
     },
 
     {
@@ -40,7 +40,7 @@
       "categories": {
         "category": "turntable",
         "subcategory": ""
-      },
+      }
     },
     {
       "id": 4,
@@ -50,7 +50,7 @@
       "categories": {
         "category": "amplifier",
         "subcategory": "power_amplifier"
-      },
+      }
     },
     {
       "id": 5,
@@ -60,7 +60,53 @@
       "categories": {
         "category": "record_player",
         "subcategory": ""
-      },
+      }
+    }
+  ],
+  "categories": [
+    {
+      "category": "Amplifiers",
+      "subcategories": [
+        "Integrated Amplifiers",
+        "Power Amplifiers",
+        "Preamplifiers"
+      ]
+    },
+    {
+      "category": "Speakers"
+    },
+    {
+      "category": "Turntables"
+    },
+    {
+      "category": "CD Players"
+    },
+    {
+      "category": "Streamers"
+    },
+    {
+      "category": "Cables"
+    },
+    {
+      "category": "Furniture"
+    },
+    {
+      "category": "Headphones"
+    },
+    {
+      "category": "Home Cinema"
+    },
+    {
+      "category": "Ceiling Speakers"
+    },
+    {
+      "category": "TV"
+    },
+    {
+      "category": "Vinyl"
+    },
+    {
+      "category": "Outlet - Save ££££"
     }
   ]
 }
