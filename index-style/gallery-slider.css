@@ -2,37 +2,49 @@
     background-color: #FFF;
     width: 100%;
     height: 500px;
-    padding: 4%;
 
     display: flex;
-    justify-content: center;
-    align-items: baseline;
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8em;
     font-weight: bold;
 
-    border: solid 4px springgreen;
 }
 
 .hifi__gallery-slider__imgcontainer{
     height: 10%;
     width: 30%;
+    margin: 0 auto;
 }
 
 .hifi__gallery-slider__heading{
-    position: relative;
-    right: 20%;
+    position: absolute;
+    left: 5%;
+    margin-top: 2%;
 
     color: #ce8d00
 }
 
 .hifi__gallery-slider__arrow{
-    width: 50px;
-    height: 50px;
+    width: 100%;
 
+
+    margin-top: 15%;
+    position: absolute;
+
+    padding: 0 5%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .arrow__left, .arrow__right{
-    border: solid 4px springgreen;
+    width: 50px;
+    height: 50px;
+
+    cursor: pointer;
+}
+
+.arrow__right{
+    justify-self: end;
 }
