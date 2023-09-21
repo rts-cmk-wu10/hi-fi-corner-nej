@@ -6,7 +6,7 @@
 }
  .hifi__social-media__imgcontainer
  {
-    width: 99%;
+    width: 98%;
  }
 
  .hifi__social-media__text{
@@ -20,6 +20,7 @@
 
  .hifi__social-media__img--fb{
    background: url("/images/plateplayer.jpg") center/cover no-repeat;
+   margin-left: 2%;
  }
 
  .hifi__social-media__img--b{
@@ -29,7 +30,7 @@
  
  .hifi__social-media__img--twt{
    background: url("/images/sennheiser.jpg") center/cover no-repeat;
-   
+
  }
  
  .hifi__social-media__img{
