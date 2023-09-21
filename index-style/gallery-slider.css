@@ -1,15 +1,18 @@
 .hifi__gallery-slider{
     background-color: #FFF;
     width: 100%;
-    height: 300px;
+    height: 500px;
+    padding: 4%;
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8em;
     font-weight: bold;
+
+    border: solid 4px springgreen;
 }
 
 .hifi__gallery-slider__imgcontainer{
@@ -18,9 +21,18 @@
 }
 
 .hifi__gallery-slider__heading{
-    position: absolute;
-    left: 15%;
-    margin-bottom: 10%;
+    position: relative;
+    right: 20%;
 
     color: #ce8d00
+}
+
+.hifi__gallery-slider__arrow{
+    width: 50px;
+    height: 50px;
+
+}
+
+.arrow__left, .arrow__right{
+    border: solid 4px springgreen;
 }
