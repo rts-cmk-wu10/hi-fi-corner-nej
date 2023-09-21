@@ -6,7 +6,7 @@
 }
  .hifi__social-media__imgcontainer
  {
-    width: 98%;
+    width: 99%;
  }
 
  .hifi__social-media__text{
@@ -22,13 +22,14 @@
    background: url("/images/plateplayer.jpg") center/cover no-repeat;
  }
 
- .hifi__social-media__img--twt{
-   background: url("/images/sennheiser.jpg") center/cover no-repeat;
- }
-
  .hifi__social-media__img--b{
    background: url("/images/tidal.jpg") center/cover no-repeat;
 
+ } 
+ 
+ .hifi__social-media__img--twt{
+   background: url("/images/sennheiser.jpg") center/cover no-repeat;
+   
  }
  
  .hifi__social-media__img{
