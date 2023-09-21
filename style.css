@@ -1,21 +1,4 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-img{
-    display: block;
-    width: 100%;
-}
-
-#Wrapper{
-    margin: 0 auto;
-}
-
-
-
-.header-f_eks{
-    height: 100px;
-    background-color: #FF00FF80;
+@import url(shopcategorylistStyling/list.css);
+:root{
+    --orange: #960;
 }

@@ -6,6 +6,7 @@ fetch("http://localhost:3000/categories")
            const LI = document.createElement("li")
             const SUB_UL = document.createElement("ul")
             LI.innerHTML = category.category
+            LI.className = "categories__ulItem"
             LI.id = category.category
             let hasBeenAppended = false
             LI.addEventListener("click", function(){
