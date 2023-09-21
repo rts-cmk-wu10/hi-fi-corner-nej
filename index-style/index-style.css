@@ -9,6 +9,10 @@ img{
     width: 100%;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 #Wrapper{
     margin: 0 auto;
 }
