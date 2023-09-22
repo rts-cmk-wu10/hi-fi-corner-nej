@@ -1,0 +1,38 @@
+.hifi__social-media{
+        width: 100%;
+        height: 300px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+}
+ .hifi__social-media__imgcontainer
+ {
+    width: 98%;
+ }
+
+ .hifi__social-media__text{
+
+    text-decoration: none;
+    color: #000;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+ }
+
+ .hifi__social-media__img--fb{
+   background: url("/images/plateplayer.jpg") center/cover no-repeat;
+   margin-left: 2%;
+ }
+
+ .hifi__social-media__img--b{
+   background: url("/images/tidal.jpg") center/cover no-repeat;
+
+ } 
+ 
+ .hifi__social-media__img--twt{
+   background: url("/images/sennheiser.jpg") center/cover no-repeat;
+
+ }
+ 
+ .hifi__social-media__img{
+   padding: 10%;
+ }

@@ -1,0 +1,37 @@
+    /* NAV-tag */
+.hifi__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #000;
+
+}
+
+    /* UL-tag */
+.hifi__menu__list{
+    
+    display: flex;
+    gap: 50px;
+}
+
+    /* LI-tag */
+.hifi__menu__items{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+    /* A-tag */
+.hifi__menu__link{
+    color: #fff;
+    text-decoration: none;
+
+    /* border: solid 2px red; */
+}
+
+.link__active{
+    color: #efa632;
+}

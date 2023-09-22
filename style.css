@@ -1,3 +1,13 @@
+/* Index styling */
+@import url(index-style/gallery.css);
+@import url(index-style/header.css);
+@import url(index-style/heroImg.css);
+@import url(index-style/index-style.css);
+@import url(index-style/slogan.css);
+@import url(index-style/social-media.css);
+/* shopcategorylist styling */
+@import url(shopcategorylistStyling/list.css);
+/* shop */
 @import url('shop/shop.css');
 @import url("/menu.css");
 @font-face {
@@ -9,9 +19,9 @@
     src: url(museo-sans-rounded/MuseoSansRounded700.otf);
 }
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
