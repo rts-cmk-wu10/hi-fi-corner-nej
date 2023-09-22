@@ -7,3 +7,21 @@
 @import url(index-style/social-media.css);
 /* shopcategorylist styling */
 @import url(shopcategorylistStyling/list.css);
+/* shop */
+@import url('shop/shop.css');
+@import url("/menu.css");
+@font-face {
+    font-family: "Shop page";
+    src: url(museo-sans-rounded/MuseoSansRounded700.otf);
+}
+@font-face{
+    font-family: "Basic";
+    src: url(museo-sans-rounded/MuseoSansRounded700.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
