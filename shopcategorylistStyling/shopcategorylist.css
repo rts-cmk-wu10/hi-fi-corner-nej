@@ -1,0 +1,15 @@
+.home{
+    color: var(--orange);
+}
+.categories{
+    background-color: var(--gray);
+    list-style: none;
+    width: 30%;
+    color: var(--orange);
+}
+#categories__ul{
+    list-style: none;
+}
+.categories__ulItem_active{
+    color: #6d5b4b;
+}

@@ -67,8 +67,8 @@
     {
       "category": "Amplifiers",
       "subcategories": [
-        "Integrated Amplifiers",
-        "Power Amplifiers",
+        "IntegratedAmplifiers",
+        "PowerAmplifiers",
         "Preamplifiers"
       ]
     },
@@ -79,7 +79,7 @@
       "category": "Turntables"
     },
     {
-      "category": "CD Players"
+      "category": "CDPlayers"
     },
     {
       "category": "Streamers"
@@ -94,10 +94,10 @@
       "category": "Headphones"
     },
     {
-      "category": "Home Cinema"
+      "category": "HomeCinema"
     },
     {
-      "category": "Ceiling Speakers"
+      "category": "CeilingSpeakers"
     },
     {
       "category": "TV"
@@ -106,7 +106,7 @@
       "category": "Vinyl"
     },
     {
-      "category": "Outlet - Save ££££"
+      "category": "Outlet-Save££££"
     }
   ]
 }

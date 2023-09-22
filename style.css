@@ -1,4 +1,5 @@
-@import url(shopcategorylistStyling/list.css);
+@import url(shopcategorylistStyling/shopcategorylist.css);
 :root{
     --orange: #960;
+    --gray: #E1E1E1;
 }
