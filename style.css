@@ -1,6 +1,9 @@
+/* Index styling */
 @import url(index-style/gallery.css);
 @import url(index-style/header.css);
 @import url(index-style/heroImg.css);
 @import url(index-style/index-style.css);
 @import url(index-style/slogan.css);
 @import url(index-style/social-media.css);
+/* shopcategorylist styling */
+@import url(shopcategorylistStyling/list.css);
