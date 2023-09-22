@@ -1,65 +1,130 @@
 {
   "products": [
     {
-      "id": 0,
-      "title": "Rotel A10 Stereo Amplifier",
-      "price": 389,
-      "image": "Produktbilleder/forforstaerkere/parasound_halop3.jpg",
+      "id": 6,
+      "title": "Arcam SA10 Integrated Amplifier",
+      "price": 699,
+      "image": "Produktbilleder/amplifiers/arcam_sa10.jpg",
       "categories": {
-        "category": "amplifier",
-        "subcategory": "preamplifier"
-      }
+        "category": "Amplifiers",
+        "subcategory": "IntegratedAmplifiers"
+      },
+      "manufacturer": "Arcam"
     },
     {
-      "id": 1,
-      "title": "Quad 2 classic power amplifier",
+      "id": 7,
+      "title": "ATC SCM50 Tower Speakers",
+      "price": 3499,
+      "image": "Produktbilleder/speakers/atc_scm50.jpg",
+      "categories": {
+        "category": "Speakers",
+        "subcategory": "FloorStandingSpeakers"
+      },
+      "manufacturer": "ATC"
+    },
+    {
+      "id": 8,
+      "title": "Audiolab 8300CD CD Player",
       "price": 999,
-      "image": "Produktbilleder/forforstaerkere/parasound_classic7100.jpg",
+      "image": "Produktbilleder/cdplayers/audiolab_8300cd.jpg",
       "categories": {
-        "category": "amplifier",
-        "subcategory": "power_amplifier"
-      }
-    },
-
-    {
-      "id": 2,
-      "title": "Quad Atera Solus",
-      "price": 1200,
-      "image": "Produktbilleder/dvdafspillere/creek_classic.jpg",
-      "categories": {
-        "category": "cd_player",
-        "subcategory": ""
-      }
-    },
-
-    {
-      "id": 3,
-      "title": "Turntable",
-      "price": 20,
-      "image": "Produktbilleder/pladespillere/Pro_ject_Debut_3_bl.jpg",
-      "categories": {
-        "category": "turntable",
-        "subcategory": ""
-      }
+        "category": "CDPlayers"
+      },
+      "manufacturer": "Audiolab"
     },
     {
-      "id": 4,
-      "title": "Effektforstærker 2000",
-      "price": 2000,
-      "image": "Produktbilleder/effektforstaerkere/manley_mahi.jpg",
+      "id": 9,
+      "title": "Avid Sequel SP Turntable",
+      "price": 3799,
+      "image": "Produktbilleder/turntables/avid_sequel_sp.jpg",
       "categories": {
-        "category": "amplifier",
-        "subcategory": "power_amplifier"
+        "category": "Turntables"
+      },
+      "manufacturer": "Avid"
+    },
+    {
+      "id": 10,
+      "title": "EAT C-Major Turntable",
+      "price": 1999,
+      "image": "Produktbilleder/turntables/eat_c-major.jpg",
+      "categories": {
+        "category": "Turntables"
+      },
+      "manufacturer": "EAT"
+    },
+    {
+      "id": 11,
+      "title": "High-End Speaker Cables",
+      "price": 149,
+      "image": "Produktbilleder/cables/speaker_cables.jpg",
+      "categories": {
+        "category": "Cables",
+        "subcategory": "SpeakerCables"
       }
     },
     {
-      "id": 5,
-      "title": "Mega Sindsyg Pladeafspiller",
-      "price": 2500,
-      "image": "Produktbilleder/pladespillere/Pro_ject_Debut_3_bl.jpg",
+      "id": 12,
+      "title": "Premium Hi-Fi Rack",
+      "price": 299,
+      "image": "Produktbilleder/furniture/hi-fi_rack.jpg",
       "categories": {
-        "category": "record_player",
-        "subcategory": ""
+        "category": "Furniture",
+        "subcategory": "HiFiRacks"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Audiophile Headphones",
+      "price": 349,
+      "image": "Produktbilleder/headphones/audiophile_headphones.jpg",
+      "categories": {
+        "category": "Headphones"
+      }
+    },
+    {
+      "id": 14,
+      "title": "4K Ultra HD Projector",
+      "price": 2499,
+      "image": "Produktbilleder/homecinema/4k_projector.jpg",
+      "categories": {
+        "category": "HomeCinema",
+        "subcategory": "Projectors"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Ceiling-Mounted Surround Speakers",
+      "price": 499,
+      "image": "Produktbilleder/ceilingspeakers/ceiling_speakers.jpg",
+      "categories": {
+        "category": "CeilingSpeakers"
+      }
+    },
+    {
+      "id": 16,
+      "title": "65-Inch 4K OLED TV",
+      "price": 1899,
+      "image": "Produktbilleder/tv/65_inch_oled_tv.jpg",
+      "categories": {
+        "category": "TV"
+      }
+    },
+    {
+      "id": 17,
+      "title": "Vinyl Record Collection",
+      "price": 499,
+      "image": "Produktbilleder/vinyl/vinyl_records.jpg",
+      "categories": {
+        "category": "Vinyl"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Outlet Bargain Bundle",
+      "price": 299,
+      "image": "Produktbilleder/outlet/outlet_bargain.jpg",
+      "categories": {
+        "category": "Outlet-Save££££"
       }
     }
   ],
@@ -73,7 +138,12 @@
       ]
     },
     {
-      "category": "Speakers"
+      "category": "Speakers",
+      "subcategories": [
+        "BookshelfSpeakers",
+        "FloorStandingSpeakers",
+        "CeilingSpeakers"
+      ]
     },
     {
       "category": "Turntables"
@@ -85,16 +155,30 @@
       "category": "Streamers"
     },
     {
-      "category": "Cables"
+      "category": "Cables",
+      "subcategories": [
+        "SpeakerCables",
+        "InterconnectCables",
+        "PowerCables"
+      ]
     },
     {
-      "category": "Furniture"
+      "category": "Furniture",
+      "subcategories": [
+        "HiFiRacks",
+        "SpeakerStands"
+      ]
     },
     {
       "category": "Headphones"
     },
     {
-      "category": "HomeCinema"
+      "category": "HomeCinema",
+      "subcategories": [
+        "AVReceivers",
+        "Projectors",
+        "BluRayPlayers"
+      ]
     },
     {
       "category": "CeilingSpeakers"
@@ -107,6 +191,23 @@
     },
     {
       "category": "Outlet-Save££££"
+    }
+  ],
+  "manufacturers": [
+    {
+      "manufacturer": "Arcam"
+    },
+    {
+      "manufacturer": "ATC"
+    },
+    {
+      "manufacturer": "Audiolab"
+    },
+    {
+      "manufacturer": "Avid"
+    },
+    {
+      "manufacturer": "EAT"
     }
   ]
 }
