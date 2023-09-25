@@ -1,31 +1,3 @@
-<<<<<<< Homepage
-@import url(index-style/gallery-slider.css);
-=======
-/* Index styling */
-@import url(index-style/gallery.css);
->>>>>>> master
-@import url(index-style/header.css);
-@import url(index-style/heroImg.css);
-@import url(index-style/index-style.css);
-@import url(index-style/slogan.css);
-@import url(index-style/social-media.css);
-<<<<<<< Homepage
-=======
-/* shopcategorylist styling */
-@import url(shopcategorylistStyling/list.css);
-/* shop */
-@import url('shop/shop.css');
-@import url("/menu.css");
-@font-face {
-    font-family: "Shop page";
-    src: url(museo-sans-rounded/MuseoSansRounded700.otf);
-}
-@font-face{
-    font-family: "Basic";
-    src: url(museo-sans-rounded/MuseoSansRounded700.otf);
-}
->>>>>>> master
-
 *{
     margin: 0;
     padding: 0;
