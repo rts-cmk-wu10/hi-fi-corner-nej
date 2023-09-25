@@ -2,102 +2,200 @@
   "products": [
     {
       "id": 0,
-      "title": "Rotel A10 Stereo Amplifier",
-      "price": 389,
-      "image": "Produktbilleder/forforstaerkere/parasound_halop3.jpg",
+      "title": "Arcam SA10 Integrated Amplifier",
+      "price": 699,
+      "image": "Produktbilleder/effektforstaerkere/manley_mahi.jpg",
       "categories": {
-        "category": "amplifier",
-        "subcategory": "preamplifier"
-      }
+        "category": "Amplifiers",
+        "subcategory": "IntegratedAmplifiers"
+      },
+      "manufacturer": "Arcam",
+      "finishes": [
+        "silver",
+        "black"
+      ],
+      "freewarranty": "3 years"
     },
     {
       "id": 1,
-      "title": "Quad 2 classic power amplifier",
-      "price": 999,
-      "image": "Produktbilleder/forforstaerkere/parasound_classic7100.jpg",
+      "title": "ATC SCM19 V2 Bookshelf Speakers",
+      "price": 1499,
+      "image": "Produktbilleder/hojtalere/epos_m5.gif",
       "categories": {
-        "category": "amplifier",
-        "subcategory": "power_amplifier"
-      }
+        "category": "Speakers",
+        "subcategory": "BookshelfSpeakers"
+      },
+      "manufacturer": "ATC",
+      "finishes": [
+        "black ash",
+        "cherry"
+      ],
+      "freewarranty": "5 years"
     },
-
     {
       "id": 2,
-      "title": "Quad Atera Solus",
-      "price": 1200,
-      "image": "Produktbilleder/dvdafspillere/creek_classic.jpg",
+      "title": "Audiolab 6000A Integrated Amplifier",
+      "price": 899,
+      "image": "Produktbilleder/forforstaerkere/Project_prebox.jpg",
       "categories": {
-        "category": "cd_player",
-        "subcategory": ""
-      }
+        "category": "Amplifiers",
+        "subcategory": "IntegratedAmplifiers"
+      },
+      "manufacturer": "Audiolab",
+      "finishes": [
+        "silver",
+        "black"
+      ],
+      "freewarranty": "2 years"
     },
-
     {
       "id": 3,
-      "title": "Turntable",
-      "price": 20,
+      "title": "EAT C-Sharp Turntable",
+      "price": 2399,
       "image": "Produktbilleder/pladespillere/Pro_ject_Debut_3_bl.jpg",
       "categories": {
-        "category": "turntable",
-        "subcategory": ""
-      }
+        "category": "Turntables"
+      },
+      "manufacturer": "EAT",
+      "finishes": [
+        "walnut",
+        "black"
+      ],
+      "freewarranty": "4 years"
     },
     {
       "id": 4,
-      "title": "Effektforstærker 2000",
-      "price": 2000,
-      "image": "Produktbilleder/effektforstaerkere/manley_mahi.jpg",
+      "title": "Avid Ingenium PNP Turntable",
+      "price": 1199,
+      "image": "Produktbilleder/pladespillere/Pro_ject_Debut_III_yellow_1.jpg",
       "categories": {
-        "category": "amplifier",
-        "subcategory": "power_amplifier"
-      }
+        "category": "Turntables"
+      },
+      "manufacturer": "Avid",
+      "finishes": [
+        "white",
+        "black"
+      ],
+      "freewarranty": "3 years"
     },
     {
       "id": 5,
-      "title": "Mega Sindsyg Pladeafspiller",
-      "price": 2500,
-      "image": "Produktbilleder/pladespillere/Pro_ject_Debut_3_bl.jpg",
+      "title": "ATC SCM40 V2 Floorstanding Speakers",
+      "price": 2899,
+      "image": "Produktbilleder/hojtalere/harbeth_hl7es2.jpg",
       "categories": {
-        "category": "record_player",
-        "subcategory": ""
-      }
+        "category": "Speakers",
+        "subcategory": "FloorStandingSpeakers"
+      },
+      "manufacturer": "ATC",
+      "finishes": [
+        "black ash",
+        "cherry"
+      ],
+      "freewarranty": "5 years"
+    },
+    {
+      "id": 6,
+      "title": "Audiolab M-DAC Digital-to-Analog Converter",
+      "price": 499,
+      "image": "Produktbilleder/forforstaerkere/Project_prebox.jpg",
+      "categories": {
+        "category": "Amplifiers",
+        "subcategory": "Preamplifiers"
+      },
+      "manufacturer": "Audiolab",
+      "finishes": [
+        "silver",
+        "black"
+      ],
+      "freewarranty": "2 years"
+    },
+    {
+      "id": 7,
+      "title": "EAT E-Flat Turntable",
+      "price": 2999,
+      "image": "Produktbilleder/pladespillere/Pro_ject_rpm10.jpg",
+      "categories": {
+        "category": "Turntables"
+      },
+      "manufacturer": "EAT",
+      "finishes": [
+        "black",
+        "white"
+      ],
+      "freewarranty": "5 years"
+    },
+    {
+      "id": 8,
+      "title": "ATC P2 Dual-Mono Power Amplifier",
+      "price": 3599,
+      "image": "Produktbilleder/effektforstaerkere/parasound_haloa23.jpg",
+      "categories": {
+        "category": "Amplifiers",
+        "subcategory": "PowerAmplifiers"
+      },
+      "manufacturer": "ATC",
+      "finishes": [
+        "black",
+        "silver"
+      ],
+      "freewarranty": "5 years"
     }
   ],
   "categories": [
     {
       "category": "Amplifiers",
       "subcategories": [
-        "Integrated Amplifiers",
-        "Power Amplifiers",
+        "IntegratedAmplifiers",
+        "PowerAmplifiers",
         "Preamplifiers"
       ]
     },
     {
-      "category": "Speakers"
+      "category": "Speakers",
+      "subcategories": [
+        "BookshelfSpeakers",
+        "FloorStandingSpeakers",
+        "CeilingSpeakers"
+      ]
     },
     {
       "category": "Turntables"
     },
     {
-      "category": "CD Players"
+      "category": "CDPlayers"
     },
     {
       "category": "Streamers"
     },
     {
-      "category": "Cables"
+      "category": "Cables",
+      "subcategories": [
+        "SpeakerCables",
+        "InterconnectCables",
+        "PowerCables"
+      ]
     },
     {
-      "category": "Furniture"
+      "category": "Furniture",
+      "subcategories": [
+        "HiFiRacks",
+        "SpeakerStands"
+      ]
     },
     {
       "category": "Headphones"
     },
     {
-      "category": "Home Cinema"
+      "category": "HomeCinema",
+      "subcategories": [
+        "AVReceivers",
+        "Projectors",
+        "BluRayPlayers"
+      ]
     },
     {
-      "category": "Ceiling Speakers"
+      "category": "CeilingSpeakers"
     },
     {
       "category": "TV"
@@ -106,7 +204,24 @@
       "category": "Vinyl"
     },
     {
-      "category": "Outlet - Save ££££"
+      "category": "Outlet-Save££££"
+    }
+  ],
+  "manufacturers": [
+    {
+      "manufacturer": "Arcam"
+    },
+    {
+      "manufacturer": "ATC"
+    },
+    {
+      "manufacturer": "Audiolab"
+    },
+    {
+      "manufacturer": "Avid"
+    },
+    {
+      "manufacturer": "EAT"
     }
   ]
 }

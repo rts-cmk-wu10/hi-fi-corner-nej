@@ -1,3 +1,4 @@
+@import url(shopcategorylistStyling/shopcategorylist.css);
 /* Index styling */
 @import url(index-style/gallery-slider.css);
 @import url(index-style/header.css);
@@ -28,7 +29,10 @@
 body{
     background-color: black;
 }
-
+:root{
+    --orange: #960;
+    --gray: #E1E1E1;
+}
 body::-webkit-scrollbar {
     display: none;
 }
