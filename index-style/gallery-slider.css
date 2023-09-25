@@ -17,8 +17,9 @@
     width: 30%;
     margin: 0 auto;
 
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     border: solid 2px #000000;
 }
@@ -53,4 +54,16 @@
 
 .arrow__right{
     justify-self: end;
+}
+
+.hifi__gallery-slider--show{
+    display: block;
+}
+
+.hifi__gallery-slider__img{
+    display: none;
+}
+
+.hifi__gallery-slider__img--show{
+    display: block;
 }
