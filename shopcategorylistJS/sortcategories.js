@@ -1,4 +1,5 @@
 const CATEGORIES_UL = document.getElementById("categories__ul");
+let activeLI = null; // Variable to store the active LI element
 
 async function fetchCategories() {
     try {
@@ -11,12 +12,20 @@ async function fetchCategories() {
             LI.innerHTML = category.category;
             LI.className = "categories__ulItem";
 
-            if (index === 0) LI.classList.add("categories__ulItem_active");
+            if (index === 0) {
+                LI.classList.add("categories__ulItem_active");
+                activeLI = LI;
+            }
 
             LI.classList.add(`categories__${category.category}`);
             LI.id = category.category;
 
             LI.addEventListener("click", function () {
+                if (activeLI !== null) {
+                    activeLI.classList.remove("categories__ulItem_active");
+                }
+                LI.classList.add("categories__ulItem_active");
+                activeLI = LI;
                 if (category.subcategories && category.subcategories.length > 0 && !SUB_UL.hasChildNodes()) {
                     category.subcategories.forEach((sub) => {
                         const SUB_LI = document.createElement("li");
