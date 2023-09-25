@@ -20,8 +20,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    border: solid 2px #000000;
 }
 
 .hifi__gallery-slider__heading{
