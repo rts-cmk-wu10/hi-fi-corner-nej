@@ -1,5 +1,5 @@
 const CATEGORIES_UL = document.getElementById("categories__ul");
-let activeLI = null; // Variable to store the active LI element
+let activeLI = null; // Use to store the list item with the active class later in the code
 
 async function fetchCategories() {
     try {
@@ -12,6 +12,7 @@ async function fetchCategories() {
             LI.innerHTML = category.category;
             LI.className = "categories__ulItem";
 
+            // add active class to the first list item, and place that item in activeLI variable
             if (index === 0) {
                 LI.classList.add("categories__ulItem_active");
                 activeLI = LI;
@@ -21,11 +22,15 @@ async function fetchCategories() {
             LI.id = category.category;
 
             LI.addEventListener("click", function () {
+
+                // if a active class has been assigned to a variable, remove it
                 if (activeLI !== null) {
                     activeLI.classList.remove("categories__ulItem_active");
                 }
+                // assign the class to the clicked list item, and update variable
                 LI.classList.add("categories__ulItem_active");
                 activeLI = LI;
+
                 if (category.subcategories && category.subcategories.length > 0 && !SUB_UL.hasChildNodes()) {
                     category.subcategories.forEach((sub) => {
                         const SUB_LI = document.createElement("li");
