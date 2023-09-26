@@ -20,15 +20,6 @@
     src: url(museo-sans-rounded/MuseoSansRounded700.otf);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    background-color: black;
-}
 :root{
     --orange: #960;
     --gray: #E1E1E1;
