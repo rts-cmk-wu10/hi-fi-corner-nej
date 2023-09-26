@@ -37,17 +37,9 @@ async function getManufacturers() {
     const RESPONSE = await fetch("http://localhost:3000/manufacturers");
     const MANUFACTURERS = await RESPONSE.json();
 
-    const manufacturerCounts = {}; // Object to store manufacturer counts
 
     MANUFACTURERS.forEach((manufacturer) => {
         manufacturer = manufacturer.manufacturer;
-
-        // Update the count for the current manufacturer
-        if (manufacturer in manufacturerCounts) {
-            manufacturerCounts[manufacturer]++;
-        } else {
-            manufacturerCounts[manufacturer] = 1;
-        }
 
         const LI = document.createElement("li");
         const a = document.createElement("a");
