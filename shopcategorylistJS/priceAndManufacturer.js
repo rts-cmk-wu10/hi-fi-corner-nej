@@ -1,4 +1,3 @@
-const PRICE_UL = document.querySelector(".price__ul");
 const UNDER1000 = document.getElementById("under1000");
 const UNDER2000 = document.getElementById("under2000");
 const UNDER3000 = document.getElementById("under3000");
@@ -36,10 +35,10 @@ async function getManufacturers() {
     const RESPONSE = await fetch("http://localhost:3000/manufacturers");
     const MANUFACTURERS = await RESPONSE.json();
 
+    countManufacturers()
 
     MANUFACTURERS.forEach((manufacturer) => {
         manufacturer = manufacturer.manufacturer;
-
         const LI = document.createElement("li");
         const a = document.createElement("a");
         a.innerHTML = `${manufacturer} (${manufacturerCounts[manufacturer]})`;
@@ -49,18 +48,31 @@ async function getManufacturers() {
     });
 }
 
-// counts how many times a manufacture shows up in the products array
+// object to keep count of the manufactures in the products array
 const manufacturerCounts = {};
-async function countManufacturers() {
-    const RESPONSE = await fetch("http://localhost:3000/products");
-    const products = await RESPONSE.json();
-
-      products.forEach((product) => {
-        manufacturer = product.manufacturer;
-        if (manufacturerCounts[manufacturer]) manufacturerCounts[manufacturer]++;
-        else manufacturerCounts[manufacturer] = 1;
-    })
+function countManufacturers() {
+    return new Promise(function(resolve, reject) {
+        fetch("http://localhost:3000/products")
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(products) {
+                products.forEach(function(product) {
+                    manufacturer = product.manufacturer;
+                    if (manufacturerCounts[manufacturer]) manufacturerCounts[manufacturer]++;
+                    else manufacturerCounts[manufacturer] = 1;
+                });
+                resolve();
+            })
+            .catch(function(error) {
+                reject(error);
+            });
+    });
 }
-countManufacturers();
-getManufacturers();
-countManufacturers()
+// ".then" is important because it will count the manufactures in the products array,
+// before the manufacturers are added to the manufacturers list
+// otherwise it will run at the same time, and sometimes not be done counting before adding undefined numbers to the manufacturers list
+countManufacturers().then(function() {
+    getManufacturers();
+});
+
