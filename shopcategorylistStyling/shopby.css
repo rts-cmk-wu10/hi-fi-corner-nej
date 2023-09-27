@@ -1,0 +1,21 @@
+.sorting article{
+    width: clamp(200px, 30%, 300px);
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+}
+.sorting article > *{
+    padding: 15px;
+}
+.shopby {
+    background: var(--gray);
+    width: 100%;
+}
+.shopby ul{
+    list-style: none;
+}
+.shopby ul a {
+    color: var(--orange);
+    text-decoration: none;
+}
