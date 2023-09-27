@@ -4,7 +4,6 @@
 .categories{
     background-color: var(--gray);
     list-style: none;
-    width: 30%;
     color: var(--orange);
 }
 #categories__ul{
@@ -12,4 +11,10 @@
 }
 .categories__ulItem_active{
     color: #6d5b4b;
+}
+#categories__ul ul, #categories__ul a {
+    list-style: none;
+    translate: 20px;
+    color: var(--orange);
+    text-decoration: none;
 }
