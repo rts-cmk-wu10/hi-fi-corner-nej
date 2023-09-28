@@ -1,4 +1,4 @@
-.nav__menu{
+.nav__menu {
     display: flex;
 
     background-color: black;
@@ -6,12 +6,12 @@
 
 }
 
-.nav__menuItems{
+.nav__menuItems {
     margin: 1.3rem 0 1.3rem 2rem;
 
 }
 
-.nav__menuAnchor{
+.nav__menuAnchor {
     font-family: "Basic";
     font-size: x-small;
 

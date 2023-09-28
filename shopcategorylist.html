@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <title>Category</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
   <header>
 
-  </header>
-  <main>
       <div>
           <span class="home">Home</span> / <span>category</span>
       </div>
+  </header>
+  <main>
       <article class="sorting">
         <article>
           <section class="categories">
               <ul id="categories__ul">
-
               </ul>
           </section>
             <div class="shopby">
@@ -44,9 +44,57 @@
             </div>
         </article>
       </article>
+
+      <article>
+            <h2>Amplifiers</h2>
+            <div style="width: 100%;height:75px">
+                <div style="display: flex">
+                    <div style="display: flex">
+                        <p>Sort by:</p>
+                        <select id="sort" onchange="sortCategories()">
+                            <option value="0">Price</option>
+                            <option value="1">Manufacturer</option>
+                        </select>
+                        <span class="material-symbols-outlined">
+                        arrow_upward
+                        </span>
+                    </div>
+
+                    <div style="display: flex">
+                        <p>view as:</p>
+                        <span class="material-symbols-outlined">
+                        grid_view
+                        </span>
+
+                        <span class="material-symbols-outlined">
+                        view_headline
+                        </span>
+                    </div>
+                </div>
+
+                <div>
+                    <div><span class="products__count"></span> item(s)</div>
+                    <div>
+                        <p>Show:</p>
+                        <input type="number" min="1" max="33" value="10" id="addProductsCount">
+                    </div>
+                </div>
+            </div>
+
+            <section class="products-section">
+
+            </section>
+      </article>
+
+      <article style="margin: 10px;">
+          <h2 style="color: var(--beige)    ">Manufactures</h2>
+          <ul class="manufactureres__ul" style="font-size: 1.25rem; translate: 5px; list-style: none">
+          </ul>
+      </article>
   </main>
 
     <script src="shopcategorylistJS/sortcategories.js" defer></script>
-    <script src="shopcategorylistJS/priceAndManufacturer.js"></script>
+    <script src="shopcategorylistJS/priceAndManufacturer.js" defer></script>
+  <script src="shopcategorylistJS/addProducts.js" defer></script>
 </body>
 </html>

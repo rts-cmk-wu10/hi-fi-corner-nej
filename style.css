@@ -9,6 +9,7 @@
 /* shopcategorylist styling */
 @import url(shopcategorylistStyling/categories.css);
 @import url(shopcategorylistStyling/shopby.css);
+@import url(shopcategorylistStyling/products.css);
 /* shop */
 @import url('shop/shop.css');
 @import url("/menu.css");
@@ -22,7 +23,7 @@
 }
 
 :root{
-    --orange: #960;
+    --beige: #A39161;
     --gray: #E1E1E1;
 }
 body::-webkit-scrollbar {

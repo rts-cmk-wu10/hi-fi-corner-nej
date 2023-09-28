@@ -52,3 +52,20 @@ async function fetchCategories() {
 }
 
 fetchCategories();
+
+
+async function countProducts() {
+    try {
+        const response = await fetch("http://localhost:3000/products");
+        const products = await response.json();
+        const productCount = products.length;
+        const productCountElement = document.querySelector(".products__count");
+        
+        productCountElement.textContent = productCount;
+    }
+    catch(error) {
+        console.error("Error fetching products:", error);
+    }
+}
+
+countProducts()
