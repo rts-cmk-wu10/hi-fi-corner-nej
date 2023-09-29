@@ -1,0 +1,20 @@
+.home{
+    color: var(--beige);
+}
+.categories{
+    background-color: var(--gray);
+    list-style: none;
+    color: var(--beige);
+}
+#categories__ul{
+    list-style: none;
+}
+.categories__ulItem_active{
+    color: #6d5b4b;
+}
+#categories__ul ul, #categories__ul a {
+    list-style: none;
+    translate: 20px;
+    color: var(--beige);
+    text-decoration: none;
+}

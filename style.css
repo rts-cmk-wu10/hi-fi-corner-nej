@@ -1,3 +1,4 @@
+@import url(shopcategorylistStyling/categories.css);
 /* Index styling */
 @import url(index-style/gallery-slider.css);
 @import url(index-style/header.css);
@@ -6,10 +7,15 @@
 @import url(index-style/slogan.css);
 @import url(index-style/social-media.css);
 /* shopcategorylist styling */
-@import url(shopcategorylistStyling/list.css);
+@import url(shopcategorylistStyling/categories.css);
+@import url(shopcategorylistStyling/shopby.css);
+@import url(shopcategorylistStyling/products.css);
+@import url(shopcategorylistStyling/sort.css);
 /* shop */
 @import url('shop/shop.css');
 @import url("/menu.css");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import url('/footer.css');
 @font-face {
     font-family: "Shop page";
     src: url(museo-sans-rounded/MuseoSansRounded700.otf);
@@ -18,17 +24,10 @@
     font-family: "Basic";
     src: url(museo-sans-rounded/MuseoSansRounded700.otf);
 }
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root{
+    --beige: #A39161;
+    --gray: #E1E1E1;
 }
-
-body{
-    background-color: black;
-}
-
 body::-webkit-scrollbar {
     display: none;
 }

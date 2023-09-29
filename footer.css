@@ -1,0 +1,57 @@
+.primaryFooter {
+    background-color: #a39161;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.primaryFooter__address{
+    font-family: "Shop page";
+    font-style: normal;
+    font-size: x-small;
+
+    padding: 1rem 0rem 1rem 1rem;
+}
+
+.primaryFooter__returnAndPrivacy{
+    margin: 0rem 0rem 0rem 2rem;
+
+
+    font-family: "Shop page";
+    font-size: smaller;
+
+    color: white;
+    width: 250px;
+}
+
+.primaryFooter__return, .primaryFooter__privacy{
+    color: white;
+}
+
+.primaryFooter__payments{
+    height: 52px;
+    width: 500px;
+
+    margin: 0rem 0rem 0rem 32rem ;
+}
+.primaryFooter__socials{
+    display: flex;
+    gap: 0.4rem;
+    margin-right: 2rem;
+}
+
+.primaryFooter__socialIcons{
+    color: white;
+    text-decoration: none;
+    width: 25px;
+    aspect-ratio: 1;
+
+    border: 1px rgb(255, 255, 255) solid;
+    border-radius: 50%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
