@@ -4,26 +4,157 @@
     <meta charset="UTF-8">
     <title>Category</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-<body>
+<body style="background: black">
   <header>
+      <menu class="nav__menu">
+          <li class="nav__menuItems">
+              <a class="nav__menuAnchor" href="index.html">Home</a>
+          </li>
+          <li class="nav__menuItems">
+              <a  class="nav__menuAnchor" href="#">About Us</a>
+          </li>
+          <li class="nav__menuItems">
+              <a  class="nav__menuAnchor" href="#">Brands</a>
+          </li>
+          <li class="nav__menuItems">
+              <a  class="nav__menuAnchor" href="#">Blog</a>
+          </li>
+          <li class="nav__menuItems">
+              <a  class="nav__menuAnchor" href="#">Events</a>
+          </li>
+          <li class="nav__menuItems">
+              <a  class="nav__menuAnchor" href="#">Shop</a>
+          </li>
+          <li class="nav__menuItems">
+              <a  class="nav__menuAnchor" href="#">Contact Us</a>
+          </li>
 
+      </menu>
   </header>
-
-  <main>
-      <article>
-          <div>
-              <span class="home">Home</span> / <span>category</span>
-          </div>
-
+  <main style="width: 80%; margin: 0 auto; background: white; padding: 15px; padding-top: 30px; position: relative">
+      <div style="position: absolute; left: 15px; top: 5px">
+          <span class="home">Home</span> / <span>category</span>
+      </div>
+      <article class="sorting">
+        <article>
           <section class="categories">
               <ul id="categories__ul">
-
               </ul>
           </section>
+            <div class="shopby">
+                <h2>Shop by</h2>
+                <h3>Filter</h3>
+
+                <div class="price">
+                    <h4 class="price__title">Price</h4>
+                    <ul class="price__ul">
+                        <li id="turntables" onclick="addProductsCategory()"><a href="#">0-1000 (<span id="under1000"></span>) </a></li>
+                        <li><a href="#">1000-2000  (<span id="under2000"></span>) </a></li>
+                        <li><a href="#">2000-3000  (<span id="under3000"></span>) </a></li>
+                        <li><a href="#">300-4000  (<span id="under4000"></span>) </a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Manufacturer</h4>
+                    <ul id="manu__ul" class="manu__ul">
+
+                    </ul>
+                </div>
+
+            </div>
+        </article>
+      </article>
+
+      <article>
+            <h2>Amplifiers</h2>
+            <div class="flex spacebetween aligncenter bg-gray" style="width: 100%;height:75px;">
+                <div style="display: flex">
+                    <div style="display: flex">
+                        <p>Sort by:</p>
+                        <select id="sort" onchange="sortCategories()" style="height: 20px">
+                            <option value="0">Price</option>
+                            <option value="1">Manufacturer</option>
+                        </select>
+                        <span class="material-symbols-outlined">
+                        arrow_upward
+                        </span>
+                    </div>
+
+                    <div style="display: flex">
+                        <p>view as:</p>
+                        <span class="material-symbols-outlined">
+                        grid_view
+                        </span>
+
+                        <span class="material-symbols-outlined">
+                        view_headline
+                        </span>
+                    </div>
+                </div>
+
+                <div style="display: flex">
+                    <div><span class="products__count"></span> item(s)</div>
+                    <div>
+                        <label>Show:
+
+                        <input type="number" min="1" max="33" value="10" id="addProductsCount">
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <section class="products-section">
+
+            </section>
+
+          <div class="flex spacebetween aligncenter bg-gray" style="width: 100%;height:75px;">
+              <div style="display: flex">
+                  <div style="display: flex">
+                      <p>Sort by:</p>
+                      <select id="sort" onchange="sortCategories()" style="height: 20px">
+                          <option value="0">Price</option>
+                          <option value="1">Manufacturer</option>
+                      </select>
+                      <span class="material-symbols-outlined">
+                        arrow_upward
+                        </span>
+                  </div>
+
+                  <div style="display: flex">
+                      <p>view as:</p>
+                      <span class="material-symbols-outlined">
+                        grid_view
+                        </span>
+
+                      <span class="material-symbols-outlined">
+                        view_headline
+                        </span>
+                  </div>
+              </div>
+
+              <div style="display: flex">
+                  <div><span class="products__count"></span> item(s)</div>
+                  <div>
+                      <label>Show:
+
+                          <input type="number" min="1" max="33" value="10" id="addProductsCount">
+                      </label>
+                  </div>
+              </div>
+          </div>
+      </article>
+      <article style="margin: 10px;">
+          <h2 style="color: var(--beige)">Manufactures</h2>
+          <ul class="manufactureres__ul" style="font-size: 1.25rem; translate: 5px; list-style: none">
+          </ul>
       </article>
   </main>
 
-  <script src="shopcategorylistJS/shopcategorylist.js"></script>
+    <script src="shopcategorylistJS/sortcategories.js" defer></script>
+    <script src="shopcategorylistJS/priceAndManufacturer.js" defer></script>
+  <script src="shopcategorylistJS/addProducts.js" defer></script>
 </body>
 </html>

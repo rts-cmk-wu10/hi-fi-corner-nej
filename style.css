@@ -1,12 +1,16 @@
+@import url(shopcategorylistStyling/categories.css);
 /* Index styling */
-@import url(index-style/gallery.css);
+@import url(index-style/gallery-slider.css);
 @import url(index-style/header.css);
 @import url(index-style/heroImg.css);
 @import url(index-style/index-style.css);
 @import url(index-style/slogan.css);
 @import url(index-style/social-media.css);
 /* shopcategorylist styling */
-@import url(shopcategorylistStyling/list.css);
+@import url(shopcategorylistStyling/categories.css);
+@import url(shopcategorylistStyling/shopby.css);
+@import url(shopcategorylistStyling/products.css);
+@import url(shopcategorylistStyling/sort.css);
 /* shop */
 @import url('shop/shop.css');
 @import url("/menu.css");
@@ -19,6 +23,10 @@
 @font-face{
     font-family: "Basic";
     src: url(museo-sans-rounded/MuseoSansRounded700.otf);
+}
+:root{
+    --beige: #A39161;
+    --gray: #E1E1E1;
 }
 body::-webkit-scrollbar {
     display: none;
