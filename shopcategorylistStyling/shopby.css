@@ -1,0 +1,29 @@
+.sorting article{
+    width: clamp(200px, 30%, 300px);
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+}
+.sorting article > *{
+    padding: 15px;
+}
+.shopby {
+    background: var(--gray);
+    width: 100%;
+}
+.shopby ul{
+    list-style: none;
+}
+.shopby ul a {
+    color: var(--beige);
+    text-decoration: none;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+}
+main > :first-child{
+    justify-self: center;
+}

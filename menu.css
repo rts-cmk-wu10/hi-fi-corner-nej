@@ -1,21 +1,42 @@
-.nav__menu{
+.nav__menu {
     display: flex;
 
     background-color: black;
     justify-content: center;
 
+    border-top:1px #a39161 solid;
+
 }
 
-.nav__menuItems{
+.nav__menuItems {
     margin: 1.3rem 0 1.3rem 2rem;
 
 }
 
-.nav__menuAnchor{
+.nav__menuAnchor {
     font-family: "Basic";
     font-size: x-small;
 
     text-transform: uppercase;
     text-decoration: none;
     color: white;
+
+}
+
+.nav__menuAnchor--highlighted{
+    color:  #a39161;
+}
+
+.material-symbols-outlined{
+    color: white;
+}
+
+.primaryHeader__utilityIcons{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.7rem 2rem 1rem 2rem;
+    gap: 1rem;
+
+    filter: brightness(0.6);
+
 }
