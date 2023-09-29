@@ -4,6 +4,8 @@
     background-color: black;
     justify-content: center;
 
+    border-top:1px #a39161 solid;
+
 }
 
 .nav__menuItems {
@@ -18,4 +20,23 @@
     text-transform: uppercase;
     text-decoration: none;
     color: white;
+
+}
+
+.nav__menuAnchor--highlighted{
+    color:  #a39161;
+}
+
+.material-symbols-outlined{
+    color: white;
+}
+
+.primaryHeader__utilityIcons{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.7rem 2rem 1rem 2rem;
+    gap: 1rem;
+
+    filter: brightness(0.6);
+
 }

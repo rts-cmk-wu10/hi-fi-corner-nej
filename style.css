@@ -14,6 +14,8 @@
 /* shop */
 @import url('shop/shop.css');
 @import url("/menu.css");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import url('/footer.css');
 @font-face {
     font-family: "Shop page";
     src: url(museo-sans-rounded/MuseoSansRounded700.otf);
@@ -22,7 +24,6 @@
     font-family: "Basic";
     src: url(museo-sans-rounded/MuseoSansRounded700.otf);
 }
-
 :root{
     --beige: #A39161;
     --gray: #E1E1E1;
