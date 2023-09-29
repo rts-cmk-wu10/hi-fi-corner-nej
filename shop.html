@@ -1,39 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Shop HI-FI</title>
 </head>
-<body>
-    <header>
-        <menu class="nav__menu">
-            <li class="nav__menuItems">
-                <a class="nav__menuAnchor" href="index.html">Home</a>
-            </li>
-            <li class="nav__menuItems">
-                <a  class="nav__menuAnchor" href="#">About Us</a>
-            </li>
-            <li class="nav__menuItems">
-                <a  class="nav__menuAnchor" href="#">Brands</a>
-            </li>
-            <li class="nav__menuItems">
-                <a  class="nav__menuAnchor" href="#">Blog</a>
-            </li>
-            <li class="nav__menuItems">
-                <a  class="nav__menuAnchor" href="#">Events</a>
-            </li>
-            <li class="nav__menuItems">
-                <a  class="nav__menuAnchor" href="#">Shop</a>
-            </li>
-            <li class="nav__menuItems">
-                <a  class="nav__menuAnchor" href="#">Contact Us</a>
-            </li>
-            
-        </menu>
-        
+
+<body style="background-color: black;">
+    <header class="primaryHeader">
+        <ul class="primaryHeader__utilityIcons">
+            <span class="material-symbols-outlined">
+                location_on
+            </span>
+
+            <span class="material-symbols-outlined">
+                call
+            </span>
+
+            <span class="material-symbols-outlined">
+                mail
+            </span>
+        </ul>
+        <nav class="primaryNav">
+            <menu class="nav__menu">
+                <li class="nav__menuItems">
+                    <a class="nav__menuAnchor" href="index.html">Home</a>
+                </li>
+                <li class="nav__menuItems">
+                    <a class="nav__menuAnchor" href="#">About Us</a>
+                </li>
+                <li class="nav__menuItems">
+                    <a class="nav__menuAnchor" href="#">Brands</a>
+                </li>
+                <li class="nav__menuItems">
+                    <a class="nav__menuAnchor" href="#">Blog</a>
+                </li>
+                <li class="nav__menuItems">
+                    <a class="nav__menuAnchor" href="#">Events</a>
+                </li>
+                <li class="nav__menuItems">
+                    <a class="nav__menuAnchor nav__menuAnchor--highlighted" href="#">Shop</a>
+                </li>
+                <li class="nav__menuItems">
+                    <a class="nav__menuAnchor" href="#">Contact Us</a>
+                </li>
+
+            </menu>
+        </nav>
+
     </header>
 
     <main class="shop">
@@ -101,8 +118,42 @@
             <li class="shop__category shop__category--SHOPNOW">
                 <a class="shop__categoryLink shop__categoryLink--SHOPNOW" href="#">SHOP NOW</a>
             </li>
-            
-        </menu>  
+
+        </menu>
     </main>
+
+    <footer class="primaryFooter">
+        <address class="primaryFooter__address">
+            Hi-Fi Corner<br>
+            Edinburgh 2 Joppa Road EH15 2EU<br>
+            Falkirk 44 Cow Wynd FK1 1PU
+        </address>
+        <span class="primaryFooter__returnAndPrivacy">
+            <a class="primaryFooter__return" href="#">Return & Refunds</a>
+            |
+            <a class="primaryFooter__privacy" href="#">Privacy Policy</a>
+        </span>
+
+        <img class="primaryFooter__payments" src="images/payments.png" alt="payment methods">
+        
+        <div class="primaryFooter__socials">
+            <a class="primaryFooter__socialIcons" href="https://www.facebook.com/HiFiCorner">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a class="primaryFooter__socialIcons" href="https://www.youtube.com/@hi-ficorner?cbrd=1">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a class="primaryFooter__socialIcons" href="https://twitter.com/i/flow/login?redirect_after_login=%2Fhifi_corner">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a class="primaryFooter__socialIcons" href="https://www.instagram.com/hifi_corner/">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/5f15ab74b5.js" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
