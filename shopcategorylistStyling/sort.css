@@ -1,0 +1,13 @@
+.flex{
+    display: flex;
+
+}
+.spacebetween{
+    justify-content: space-between;
+}
+.aligncenter{
+    align-items: center;
+}
+.bg-gray{
+    background: var(--gray)
+}

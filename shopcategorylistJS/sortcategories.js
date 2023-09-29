@@ -11,7 +11,8 @@ async function fetchCategories() {
             const SUB_UL = document.createElement("ul");
             LI.innerHTML = category.category;
             LI.className = "categories__ulItem";
-
+            //set onclick attribute
+            LI.setAttribute("onClick", "addProductsCategory()");
             // add active class to the first list item, and place that item in activeLI variable
             if (index === 0) {
                 LI.classList.add("categories__ulItem_active");
@@ -22,7 +23,6 @@ async function fetchCategories() {
             LI.id = category.category;
 
             LI.addEventListener("click", function () {
-
                 // if a active class has been assigned to a variable, remove it
                 if (activeLI !== null) {
                     activeLI.classList.remove("categories__ulItem_active");

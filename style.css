@@ -10,6 +10,7 @@
 @import url(shopcategorylistStyling/categories.css);
 @import url(shopcategorylistStyling/shopby.css);
 @import url(shopcategorylistStyling/products.css);
+@import url(shopcategorylistStyling/sort.css);
 /* shop */
 @import url('shop/shop.css');
 @import url("/menu.css");

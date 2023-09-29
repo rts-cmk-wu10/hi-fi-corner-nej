@@ -41,6 +41,10 @@ async function addProductsCount(count) {
 addProducts()
 
 document.getElementById("addProductsCount").addEventListener("change", function (){
-    if(this.value !== null) addProductsCount(this.value)
-    else addProducts()
+    addProductsCount(this.value)
+    if(!this.value) addProducts()
 })
+
+
+
+

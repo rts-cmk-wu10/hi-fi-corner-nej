@@ -42,6 +42,8 @@ async function getManufacturers() {
     MANUFACTURERS.forEach((manufacturer) => {
         manufacturer = manufacturer.manufacturer;
         const LI = document.createElement("li");
+        LI.id = manufacturer;
+        LI.setAttribute("onclick", "addProductsCategory()")
         const a = document.createElement("a");
         a.innerHTML = `${manufacturer} (${manufacturerCounts[manufacturer]})`;
         a.href = "#";
