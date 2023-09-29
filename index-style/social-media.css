@@ -26,13 +26,13 @@
  .hifi__social-media__img--b{
    background: url("/images/tidal.jpg") center/cover no-repeat;
 
- } 
- 
+ }
+
  .hifi__social-media__img--twt{
    background: url("/images/sennheiser.jpg") center/cover no-repeat;
 
  }
- 
+
  .hifi__social-media__img{
    padding: 10%;
  }
