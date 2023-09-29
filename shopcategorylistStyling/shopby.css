@@ -16,6 +16,14 @@
     list-style: none;
 }
 .shopby ul a {
-    color: var(--orange);
+    color: var(--beige);
     text-decoration: none;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+}
+main > :first-child{
+    justify-self: center;
 }

@@ -1,10 +1,10 @@
 .home{
-    color: var(--orange);
+    color: var(--beige);
 }
 .categories{
     background-color: var(--gray);
     list-style: none;
-    color: var(--orange);
+    color: var(--beige);
 }
 #categories__ul{
     list-style: none;
@@ -15,6 +15,6 @@
 #categories__ul ul, #categories__ul a {
     list-style: none;
     translate: 20px;
-    color: var(--orange);
+    color: var(--beige);
     text-decoration: none;
 }

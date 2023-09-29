@@ -7,24 +7,26 @@ async function getPrices() {
     const RESPONSE = await fetch("http://localhost:3000/products");
     const products = await RESPONSE.json();
 
-    let under1000_count = 0;
-    let under2000_count = 0;
-    let under3000_count = 0;
-    let under4000_count = 0;
+    const priceRanges = {
+        under1000: 0,
+        under2000: 0,
+        under3000: 0,
+        under4000: 0
+    };
 
     products.forEach((product) => {
-        console.log(product.title)
-        price = product.price;
+        const price = product.price;
 
-        if (price <= 1000) under1000_count++;
-        if (price > 1000 && price <= 2000) under2000_count++;
-        if (price > 2000 && price <= 3000) under3000_count++;
-        if (price > 3000 && price <= 4000) under4000_count++;
+        if (price <= 1000) priceRanges.under1000++;
+        else if (price <= 2000) priceRanges.under2000++;
+        else if (price <= 3000) priceRanges.under3000++;
+        else if (price <= 4000) priceRanges.under4000++;
     });
-    UNDER1000.innerHTML = under1000_count;
-    UNDER2000.innerHTML = under2000_count;
-    UNDER3000.innerHTML = under3000_count;
-    UNDER4000.innerHTML = under4000_count;
+
+    UNDER1000.innerHTML = priceRanges.under1000;
+    UNDER2000.innerHTML = priceRanges.under2000;
+    UNDER3000.innerHTML = priceRanges.under3000;
+    UNDER4000.innerHTML = priceRanges.under4000;
 }
 
 getPrices();
@@ -40,6 +42,8 @@ async function getManufacturers() {
     MANUFACTURERS.forEach((manufacturer) => {
         manufacturer = manufacturer.manufacturer;
         const LI = document.createElement("li");
+        LI.id = manufacturer;
+        LI.setAttribute("onclick", "addProductsCategory()")
         const a = document.createElement("a");
         a.innerHTML = `${manufacturer} (${manufacturerCounts[manufacturer]})`;
         a.href = "#";
@@ -75,4 +79,18 @@ function countManufacturers() {
 countManufacturers().then(function() {
     getManufacturers();
 });
+
+
+async function manu(){
+    const manufactures123 = document.querySelector(".manufactureres__ul")
+    const response = await fetch("http://localhost:3000/manufacturers")
+    const manufactures = await response.json()
+    
+    manufactures.forEach(manu => {
+        const LI = document.createElement("li");
+        LI.innerHTML = manu.manufacturer;
+        manufactures123.appendChild(LI);
+    })
+}
+manu();
 
