@@ -20,10 +20,17 @@
     text-decoration: none;
 }
 
-main{
+.shopCategorylistMain{
     display: grid;
     grid-template-columns: 300px 1fr 300px;
+
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    padding: 15px;
+    padding-top: 30px;
+    position: relative
 }
-main > :first-child{
+.shopCategorylistMain > :first-child{
     justify-self: center;
 }

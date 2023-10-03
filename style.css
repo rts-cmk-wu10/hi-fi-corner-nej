@@ -28,7 +28,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+:root{
+    --gray: #E1E1E1;
+    --beige: #A39161;
+}
 body {
     background-color: black;
 }
