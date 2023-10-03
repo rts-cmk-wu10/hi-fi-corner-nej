@@ -21,7 +21,7 @@ async function addProductsCount(count) {
     const response = await fetch("http://localhost:3000/products");
     const products = await response.json();
 
-    PRODUCTS_SECTION.innerHTML = ""; // Reset the products section HTML
+    PRODUCTS_SECTION.innerHTML = ""; 
 
     for (let i = 0; i < count; i++) {
         PRODUCTS_SECTION.innerHTML += `
